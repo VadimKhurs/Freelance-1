@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Core Sans A 55 Medium W01 Rg";
+    src: url("https://db.onlinewebfonts.com/t/50cf4865106e21b16839208eacda9aca.eot");
+    src: url("https://db.onlinewebfonts.com/t/50cf4865106e21b16839208eacda9aca.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/50cf4865106e21b16839208eacda9aca.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/50cf4865106e21b16839208eacda9aca.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/50cf4865106e21b16839208eacda9aca.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/50cf4865106e21b16839208eacda9aca.svg#Core Sans A 55 Medium W01 Rg")format("svg");
+}
+
+.navbar{
+    border: 1px solid magenta;
+    overflow: hidden;
+    position: relative;
+    height:50px;
+}
+
+.navbar img{
+    max-height: 100%;
+    width: auto;
+}
+
+.navbar__logo{
+    width: 20%;
+    max-height: 100%;
+}
+
+.navbar__btns{
+    width: 50%;
+    max-height: 100%;
+    display: flex;
+    
+}
+
+.navbar__btns__btn{
+    width: 25%;
+    text-align: center;
+    position:relative;
+    top:35%;
+}
+
+.navbar__btns__btn a{
+    font-family: 'Core Sans A 55 Medium W01 Rg';
+    font-size: small;
+}
+
+.row{
+    display: flex;
+    text-align: left;
+    max-height: 100%;
+}

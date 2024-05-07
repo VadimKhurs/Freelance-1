@@ -1,0 +1,37 @@
+.navbar__btns__btn{
+    width: 25%;
+    text-align: center;
+    position:relative;
+    top:35%;
+}
+
+.navbar__arrow{
+    width: 10%;
+    position: absolute;
+    margin: 3px -20px;
+    
+}
+
+.navbar__btns__btn .navbar__arrow{
+    transform: translateX(0px);
+    
+    transition: transform 1s ease-in-out;
+}
+
+.navbar__btns__btn:hover .navbar__arrow{
+    transform: translateX(4px);
+}
+
+@keyframes arrow{
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(5px);
+    }
+}
+
+.navbar__btns__btn a{
+    font-family: 'Core Sans A 55 Medium W01 Rg';
+    font-size: small;
+}

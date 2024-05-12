@@ -22,7 +22,7 @@ function Banner() {
             <h1 style={{fontWeight:"normal"}}>With </h1>
             <h1>AI +</h1>
             <h1 style={{fontWeight:"normal"}}>India's </h1>
-            <h1>best Fnancial</h1>
+            <h1>best Financial</h1>
           </div>
           <div className={cl.banner__bold__text}>
             <h1>Advisors</h1>

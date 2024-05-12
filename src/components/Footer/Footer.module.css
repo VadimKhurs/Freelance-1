@@ -97,23 +97,22 @@
     box-sizing: border-box;
 }
 
-
-@media (1382px <= width <= 1650px) {
+@media (max-width: 1562px) {
     
 }
 
-@media (992px <= width < 1381px){
+@media (max-width: 1300px){
 
 }
 
-@media (768px <= width < 991px){
+@media (max-width: 992px){
 
 }
 
-@media (600px <= width < 767px){
+@media (max-width: 768px){
     
 }
 
-@media (480px <= width < 599px){
+@media (max-width: 600px){
     
 }

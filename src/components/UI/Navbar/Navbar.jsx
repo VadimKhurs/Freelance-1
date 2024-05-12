@@ -12,7 +12,7 @@ function Navbar() {
                 <img src= {logo}/>
             </div>
             <div className={cl.navbar__btns}>
-                <NavbarButton text = "Why Savingz"/>
+                <NavbarButton text = "Wy Savingz"/>
                 <NavbarButton text = "Our Products"/>
                 <NavbarButton text = "Customer Feedback"/>
                 <NavbarButton text = "Blogs"/>

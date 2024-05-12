@@ -70,12 +70,14 @@
     .navbar__arrow{
         width: 10%;
         position: absolute;
-        margin: 7px -12px;
+        margin: 7px -11px;
     }
 }
 
 @media (max-width: 768px){
-    
+    .navbar__btns__btn:hover .navbar__arrow{
+        transform: translateX(2px);
+    }
 }
 
 @media (max-width: 600px){

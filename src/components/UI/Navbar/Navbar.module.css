@@ -94,7 +94,23 @@
 }
 
 @media (max-width: 768px){
-    
+    .navbar__other__btns img{
+        margin: 0px 0px -2px 4px;
+    }
+
+    .navbar__other__btns{
+        padding: 18px 1px;
+        width: 27%;
+    }
+
+    .navbar__btns{
+        width: 70%;
+        column-gap: 7px;
+    }
+
+    .navbar__logo img{
+        padding: 20px 0px;
+    }
 }
 
 @media (max-width: 600px){

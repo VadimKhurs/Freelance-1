@@ -117,7 +117,23 @@ a p{
 }
 
 @media (max-width: 768px){
-    
+    .vertical__center{
+        padding: 0px 5px;
+        padding-right: 6px;
+        margin-bottom: 4px;
+    } 
+
+    a p{
+        font-size: 7px;
+        display: inline;
+        padding-top: 2px;
+    }
+
+    .MyButton__arrow{
+        padding: 0px 0px 0px 0px;
+        width: 9px;
+        position: relative;
+    }
 }
 
 @media (max-width: 600px){

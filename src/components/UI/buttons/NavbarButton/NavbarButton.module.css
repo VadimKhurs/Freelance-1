@@ -81,7 +81,18 @@
 }
 
 @media (max-width: 430px){
-    
+    .navbar__btns__btn a{
+        font-size: 6px;
+    }
+
+    .navbar__btns__btn{
+        width: 18%;
+        top: 11%;
+    }
+
+    .navbar__arrow{
+        margin: 10px -7px;
+    }
 }
 
 @media (max-width: 390px){

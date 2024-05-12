@@ -26,3 +26,24 @@
 .companies img{
     height: 7em;
 }
+
+
+@media (1382px <= width <= 1650px) {
+    
+}
+
+@media (992px <= width < 1381px){
+
+}
+
+@media (768px <= width < 991px){
+
+}
+
+@media (600px <= width < 767px){
+    
+}
+
+@media (480px <= width < 599px){
+    
+}

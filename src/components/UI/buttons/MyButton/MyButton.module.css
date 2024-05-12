@@ -71,3 +71,12 @@ a p{
     margin: 0;
     display: inline;
 }
+
+
+@media (1382px <= width <= 1650px) {
+    .vertical__center{
+        padding: 1em 2em;
+        padding-right: 3em;
+    }
+    
+}

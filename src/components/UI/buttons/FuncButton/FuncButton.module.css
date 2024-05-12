@@ -1,3 +1,36 @@
+@media (min-width: 1650px){
+    .FuncButton{
+        width: auto;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 1px;
+    }
+    
+    .FuncButton__arrow{
+        height: 1.5em;
+        margin-bottom: -7px;
+    }
+    
+    .FuncButton a{
+        padding: 15px;
+        padding-top: 21px;
+    }
+    
+    .vertical__center{
+        padding: 0.9em 1em;
+        column-gap: 100%;
+    }
+    
+    
+    .func__buttons{
+        margin-top: 7em;
+        column-gap: 20px;
+    }
+    
+    .FuncButton p{
+        padding: 15px;
+        padding-top: 21px;
+    }
+}
+
 .FuncButton{
     width: auto;
     position:relative;

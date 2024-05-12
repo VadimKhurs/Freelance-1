@@ -1,0 +1,29 @@
+.Conviction__main{
+    padding: 0em 4em;
+    font-family: 'Poppins';
+    display: flex;
+}
+
+.title{
+    width: 80%  ;
+}
+
+.title h1{    
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px #000000;
+    margin-bottom: 0px;
+}
+
+.title p{
+    color: #656565;
+    width: 80%;
+    font-size: 20px;
+}
+
+.Button{    
+    width: 30%;
+    justify-content: flex-end;
+    display: flex;
+    padding: 2em;
+}

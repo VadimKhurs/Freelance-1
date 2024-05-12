@@ -8,7 +8,7 @@
 .navbar__arrow{
     width: 10%;
     position: absolute;
-    margin: 3px -20px;
+    margin: 0px -25px;
     
 }
 
@@ -33,5 +33,7 @@
 
 .navbar__btns__btn a{
     font-family: 'Core Sans A 55 Medium W01 Rg';
-    font-size: small;
+    font-size: medium;
+    color: black;
+    text-decoration: 0;
 }

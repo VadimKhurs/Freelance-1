@@ -9,10 +9,9 @@
 }
 
 .navbar{
-    border: 1px solid magenta;
     overflow: hidden;
-    position: relative;
-    height:50px;
+    position: relative ;
+    height: 60px;
 }
 
 .navbar img{
@@ -37,45 +36,18 @@
     max-height: 100%;
 }
 
-
-
-
-
 .navbar__other__btns{
     width: 30%;
-    max-height: 100%;
+    max-height: 80%;
     display: flex;
-    flex-direction: row-reverse;
-    column-gap: 10%;
-    
+    flex-direction: row;
+    padding: 3px 1px;
+    column-gap: 2%;
+    justify-content: flex-end;
 }
 
-.MyButton{
-    width: 45%;
-    position:relative;
-    background: linear-gradient(90deg, rgb(116, 17, 203) 0%, 44.0476%, rgb(110, 23, 148) 88.0952%, 94.0476%, rgb(109, 23, 140) 100%);
-    color: aliceblue;
-    float: left;
-}
 
-.MyButton__arrow{
-    width: 8%;
-    position: absolute;
-    margin: 2px 5px;
-    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(49deg) brightness(113%) contrast(116%);
-}
 
-.MyButton a{
-    font-family: 'Core Sans A 55 Medium W01 Rg';
-    font-size: small;
-}
 
-.vertical__center{
-    margin: 0;
-    position: relative;
-    top: 50%;
-    
-    text-align: center;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
+
+

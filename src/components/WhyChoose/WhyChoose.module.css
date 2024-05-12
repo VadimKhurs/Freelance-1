@@ -1,0 +1,77 @@
+.WhyChoose__main{
+    padding: 0em 0em 0em 3em;
+    margin-top: 3em;
+    font-family: 'Poppins';
+}
+
+.WhyChoose__main img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.card__main{
+    width: auto;
+}
+
+.card__title{
+    display: flex;
+    margin-top: 1.5em;
+}
+
+.card__title img{
+    width: 7%;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.card__title h1 {
+    margin: 0;
+    padding-left: 8px;
+    color: #353535;
+    font-size: 23px;
+}
+
+.card p{
+    color: #656565;
+    margin-bottom: 0;
+    margin-top: 0.8em;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.card{
+    width: 84%;
+    padding: 14px;
+    border-radius: 14px;
+    
+}
+
+.card:hover{
+    background: linear-gradient(90deg, rgb(207, 134, 255) 0%, 40.251%, rgb(233, 134, 255) 80.5019%, 90.251%, rgb(243, 166, 255) 100%);
+
+}
+
+.card:hover p{
+    color:black;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+
+.card:hover a{
+    color:black;
+    
+}
+
+.card:hover .card__button img{
+    filter: brightness(0) saturate(100%);
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+
+.card__button{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}

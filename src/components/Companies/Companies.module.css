@@ -1,0 +1,28 @@
+.companies__main{
+    padding: 5em 4em;
+}
+
+.companies__container{
+    height: 100%;
+    border-radius: 20px;
+    background-color: #F8F8F8;
+    padding: 1.5em;
+}
+
+.companies__container p{
+    text-align: center;
+    color: #656565;
+    font-size: 1.2em;
+    font-family: 'Poppins';
+    margin-bottom: 0px;
+}
+
+.companies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.companies img{
+    height: 7em;
+}

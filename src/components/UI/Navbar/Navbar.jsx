@@ -2,7 +2,7 @@ import React from 'react'
 import cl from "./Navbar.module.css"
 import logo from '../../../styles/img/logo.jpg'
 import NavbarButton from '../buttons/NavbarButton/NavbarButton'
-
+import MyButton from '../buttons/MyButton/MyButton'
 
 function Navbar() {
   return (
@@ -18,24 +18,14 @@ function Navbar() {
                 <NavbarButton text = "Blogs"/>
             </div>
             <div className={cl.navbar__other__btns}>
-                
-                <div className={cl.MyButton}>
-                    <div className={cl.vertical__center}>
-                        <a>FREE CA CALL</a>
-                        <img className = {cl.MyButton__arrow} src="https://www.shareicon.net/data/48x48/2015/12/02/681008_arrows_512x512.png" />
-
-                    </div>
-                </div>
-                <div className={cl.MyButton}>
-                    <div className={cl.vertical__center}>
-                        <a>DOWNLOAD THE APP</a>
-                        <img className = {cl.MyButton__arrow} src="https://www.shareicon.net/data/48x48/2015/12/02/681008_arrows_512x512.png" />
-
-                    </div>
-                </div>
+                <MyButton>FREE CA CALL</MyButton>
+                <MyButton>DOWNLOAD THE APP</MyButton>
             </div>
+            
         </div>
+        
     </div>
+    
   )
 }
 

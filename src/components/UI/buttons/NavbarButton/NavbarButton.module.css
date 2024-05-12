@@ -95,6 +95,16 @@
     }
 }
 
-@media (max-width: 390px){
-    
+@media (max-width: 360px){
+    .navbar__btns__btn a{
+        font-size: 5px;
+    }
+
+    .navbar__arrow{
+        margin: 10px -5px;
+    }
+
+    .navbar__btns__btn:hover .navbar__arrow{
+        transform: translateX(1px);
+    }
 }

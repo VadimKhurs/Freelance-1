@@ -155,6 +155,15 @@ a p{
     }
 }
 
-@media (max-width: 390px){
-    
+@media (max-width: 360px){
+    a p {
+        font-size: 4px;
+    }
+
+    .vertical__center{
+        padding: 0px 3px;
+        padding-right: 3px;
+        margin-bottom: 1px;
+        margin-top: -7px;
+    }
 }

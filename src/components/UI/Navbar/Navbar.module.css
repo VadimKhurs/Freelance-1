@@ -129,8 +129,21 @@
     }
 }
 
-@media (max-width: 390px){
-    
+@media (max-width: 360px){
+    .navbar__logo img{
+        padding: 10px 0px;
+        width: 80%;
+    }
+
+    .navbar__other__btns{
+        padding: 8px 0px;
+        width: 20%;
+        column-gap: 3px;
+    }
+
+    .navbar__btns{
+        column-gap: 9px;
+    }
 }
 
 
